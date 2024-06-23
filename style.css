@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #243E36;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock {
+    background-image: url("rock.png");
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: black;
+    background-size: cover;
+}
+
+.paper {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.scissors {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
