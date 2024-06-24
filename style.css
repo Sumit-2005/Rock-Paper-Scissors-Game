@@ -12,23 +12,54 @@ header {
     align-items: center;
 }
 
-.rock {
-    background-image: url("rock.png");
-    height: 125px;
-    width: 125px;
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+
+
+.choice {
+    height: 165px;
+    width: 165px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.choice:hover {
     background-color: black;
-    background-size: cover;
 }
 
-.paper {
-    height: 100px;
-    width: 100px;
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
-.scissors {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.scorecard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.score {
+    margin-right: 40px;
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#you, #comp {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+
+
